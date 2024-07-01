@@ -11,7 +11,7 @@ asegurarse de tener instalado Node.js y npm . en este proyecto se instalo Vite.
 Installation git clone 🔧
 Para acceder al proyecto clonándolo, se deberá ejecutar en consola:
 
-git clone  *ACA VA LA URL DEL PROYECTO*
+git clone  (https://github.com/oscarmoyano33/ProyectoFinalMoyano.git)
 npm install 
 npm start
 Installation download ZIP 🔧
@@ -50,7 +50,7 @@ Para el proyecto se usaron las siguientes herramientas:
 
 . Firebase / Firestore
 Items. Cada item de la base de datos tiene las siguientes características:
-## Colección: Items
+
 
 Cada item tiene las siguientes características:
 
@@ -64,7 +64,7 @@ Cada item tiene las siguientes características:
 | stock          | Number    | stock              |
 
 
-Dirección del proyecto
+Dirección del repositorio de github
 
-https://after-34715.vercel.app/
+https://github.com/oscarmoyano33/ProyectoFinalMoyano.git
 
