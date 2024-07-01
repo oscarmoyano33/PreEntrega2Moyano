@@ -4,7 +4,10 @@
     bottom: 0; 
     left: 0;
     width: 100%; 
+    height: 30px;
     background-color: #333;
-    color: rgb(248, 243, 243); 
+    color: rgb(216, 208, 208); 
+    font-size: 08px;
+    font-family: "Verdana", sans-serif;
+    font-weight: lighter; 
   }
-  

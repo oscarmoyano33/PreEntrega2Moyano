@@ -1,0 +1,9 @@
+.carro-image {
+    width: 50px;
+    height: 50px;
+   /*background-color: #06506d;*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+

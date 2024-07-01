@@ -1,0 +1,38 @@
+.item-detail-container {
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+}
+
+.item-detail-content {
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.item-image {
+    max-width: 100%; /* Hacer que la imagen ocupe el máximo ancho disponible */
+    height: auto; /* Ajustar la altura automáticamente */
+    max-height: 400px; /* Limitar la altura máxima si es necesario */
+}
+
+.item-info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.item-info h1 {
+    margin: 0;
+}
+
+.item-info h3, .item-info p {
+    margin: 5px 0;
+}
+img{
+    width: 270px;
+    height: 200px;
+}

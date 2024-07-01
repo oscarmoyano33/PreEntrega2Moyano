@@ -1,12 +1,50 @@
-img{
-    width: 100px;
-    height: 100px;
+/* Tipografía y colores */
+body {
+    font-family: 'Arial', sans-serif; /* Cambia esto por la fuente que prefieras */
+    color: #333; /* Color de texto principal */
 }
 
-.container{
+.container {
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    padding: 100px;
+    padding: 20px;
+    border: 1px solid var(--clr-secondary);
+    border-radius: 0.5rem;
+    gap: 1rem; /* Espacio entre elementos */
+    background-color: #dde2e4; /* Fondo de los contenedores */
+}
+
+img {
+    width: 120px;
+    height: 120px;
+    margin-bottom: 1rem; /* Espacio entre la imagen y el texto */
+   /*background-color: #f0f2f3;*/ /*Fondo blanco para la imagen*/
+    padding: 0.5rem; /* Espacio alrededor de la imagen */
+    border-radius: 0.5rem; /* Bordes redondeados para la imagen */
+}
+
+.container h2 {
+    margin: 0 0 1rem 0; /* Margen inferior para separación */
+    text-align: center; /* Centrar el texto */
+    font-size: 1.5rem; /* Tamaño de la fuente del título */
+    color: #444; /* Color del título */
+}
+
+.container a {
+    display: block;
+    padding: 0.5rem 1rem;
+    background-color: var(--clr-secondary);
+    color: rgb(19, 22, 19); /* Color texto del enlace */
+    border-radius: 0.5rem;
+    text-decoration: none;
+    text-align: center;
+    margin-top: 1rem; /* Espacio entre texto y botón */
+    font-weight: bold; /* Negrita para el enlace */
+}
+
+.container a:hover {
+    background-color: var(--clr-primary);
+    color: var(--clr-secondary);
 }

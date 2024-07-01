@@ -1,10 +1,10 @@
 import React from 'react';
-import './footer.css'; 
+import './footer.css';
 
 const Footer = () => {
   return (
     <div className="footer-container">
-      <h1>Footer</h1>
+      <h1>Coderhouse | Curso de React 2024 | Proyecto Final | Oscar Moyano</h1>
     </div>
   );
 }

@@ -11,28 +11,35 @@ a{
     display: flex;
     justify-content: space-around;
     align-items: center;
+
+     
     
 }
 
 .navbar {
     background-color: #333;
     color: white;
-    padding: 20px;
+    padding: 10px;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%; 
   }
   
   .navbar h1 {
     margin: 20;
     padding: 10px;
-    color: white;
+   
   }
   
-  .navbar ul {
+   .navbar ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     color: white;
     
-  }
+  } 
   
   .navbar ul li {
     display: inline;
@@ -47,7 +54,7 @@ a{
   }
   
   .navbar ul li a:hover {
-    color: rgb(209, 213, 221);
+    color: rgb(184, 187, 194);
   }
   
  
@@ -55,8 +62,12 @@ a{
 
 a,
 .nav-link {
-  color: rgb(141, 192, 100); 
+  color: rgb(168, 18, 50); 
 }
 
+.cart-icon {
+  width: 14px;
+  height: 14px;
+}
 
 

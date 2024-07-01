@@ -1,6 +1,25 @@
-.itemcontainer{
+.itemcontainer {
     display: flex;
-    justify-content: center;
+    justify-content: right;
+    align-items: right;
+    flex-wrap: wrap;
+    gap: 2px;
+    padding: 20px;
+    min-height: 150px; 
+    color: rgb(212, 9, 9); 
+
+
+    
+}
+.itemListContainer{
+    display: flex;
+    justify-content: space-around;
     align-items: center;
-    flex-direction: column;
+  
+    
+    img{
+        width: 160px;
+        height: 160px;
+    }
+    
 }
